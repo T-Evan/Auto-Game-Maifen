@@ -33,7 +33,7 @@ import cv2
 
 import requests
 
-scale = 1  # 电脑的缩放比例
+scale = 1.5  # 电脑的缩放比例
 radius = 5  # 随机半径
 x_coor = 10  # 窗口位置
 y_coor = 10  # 窗口位置

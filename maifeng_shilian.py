@@ -287,10 +287,10 @@ class GameAuto(GameAutoBase):
         tzcs = 0
 
         self.notice_push("试炼开始")
-        # self.秘境()
+        self.秘境()
         self.绝境()
-        # self.恶龙()
-        # self.梦魇()
+        self.恶龙()
+        self.梦魇()
 
     def notice_push(self, msg=""):
         print(msg)
